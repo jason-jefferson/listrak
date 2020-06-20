@@ -8,6 +8,10 @@ body {
   background-color: #999999;
 }
 
+span {
+    color: #464646;
+}
+
 .popup {
   background: white;
   padding: 90px 50px 100px;
@@ -21,28 +25,50 @@ body {
 
 .popup-content {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .left-content {
     display: inline-block;
-    width: 210px;
+    width: 46%;
+    flex-grow: 2;
+    padding: 0 20px 0 40px;
+    border-right: 1px solid #e9e9e9;
 }
 
 .right-content {
+    flex-grow: 2;
     display: inline-block;
-    /* width: 200px; */
+    padding-left: 25px;
+    width: 54%;
 }
 
 .divider {
+    /* margin-left: -73px; */
+    background: white;
+    height: 148px;
+    line-height: 148px;
     display: inline-block;
+    position: absolute;
+    left: 42.7%;
+    /* display: none; */
+}
+
+.pecentoff-wrap {
+    display: inline-block;
+    max-width: 70px;
+    word-break: break-word;
+    text-align: center;
+    line-height: 0.8;
+    position: relative;
+    top: -21px;
 }
 
 span.text {
     font-size: 65px;
     letter-spacing: 13px;
     color: #464646;
+    padding-right: 21.5px;
 }
 
 span.percent {
@@ -54,4 +80,13 @@ span.percent {
 span.amp {
     font-size: 65px;
     color: #FD8C94;
+}
+
+span.symbol {
+    font-size: 82px;
+}
+
+span.off {
+    font-size: 28px;
+    letter-spacing: 2.24px;
 }
