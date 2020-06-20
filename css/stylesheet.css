@@ -1,3 +1,6 @@
 body {
-  background-color: grey;
+  background-color: #999999;
+}
+.popup {
+  background: white;
 }
