@@ -10,6 +10,7 @@ body {
 
 span {
     color: #464646;
+    font-family: 'Prata', serif;
 }
 
 .popup {
@@ -89,4 +90,38 @@ span.symbol {
 span.off {
     font-size: 28px;
     letter-spacing: 2.24px;
+}
+
+.email-wrap {
+    max-width: 180px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+input#submit {
+    border: 0;
+    border-bottom: 3px solid #fd8c94;
+    background: none;
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #fd8c94;
+    padding: 0 12.5px 11.5px;
+    line-height: 1;
+    vertical-align: top;
+}
+
+input#email {
+  border: 0;border-bottom: 3px solid #464646;
+  height: 11.5px;
+  width: 100%;
+}
+
+label {
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #464646;
 }
