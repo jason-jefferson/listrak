@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="wrapper">
-    <div class="popup">
+    <div class="popup mfp-hide">
       <div class="popup-content">
 
         <div class="left-content">
@@ -45,4 +45,14 @@
 
   <!-- Magnific Popup core JS file -->
   <script src="/listrak/js/magnific-popup.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $.magnificPopup.open({
+        items: {
+          src: '.popup',
+          type: 'inline'
+        }
+      });
+    });
+  </script>
 </body>
