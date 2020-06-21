@@ -13,7 +13,7 @@
   </div>
 
   <div class="wrapper">
-    <div class="popup mfp-hide">
+    <div class="popup-form mfp-hide">
 
       <div class="popup-close">
         <span class="icon-text">
@@ -49,7 +49,7 @@
           </div>
 
           <div class="bottom">
-            <form>
+            <form id="email-form">
               <div class="email-wrap">
                 <label for="email">Email Address</label>
                 <input type="email" name="email" id="email" required>
@@ -62,25 +62,66 @@
 
       </div>
     </div>
+
+    <div class="popup-confirm mfp-hide">
+
+      <div class="popup-close">
+        <span class="icon-text">
+        <span class="icon icon-close" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 22.88 22.88" xml:space="preserve" class="icon icon-ui-close">
+            <path d="M0.324,1.909c-0.429-0.429-0.429-1.143,0-1.587c0.444-0.429,1.143-0.429,1.587,0l9.523,9.539  l9.539-9.539c0.429-0.429,1.143-0.429,1.571,0c0.444,0.444,0.444,1.159,0,1.587l-9.523,9.524l9.523,9.539  c0.444,0.429,0.444,1.143,0,1.587c-0.429,0.429-1.143,0.429-1.571,0l-9.539-9.539l-9.523,9.539c-0.444,0.429-1.143,0.429-1.587,0  c-0.429-0.444-0.429-1.159,0-1.587l9.523-9.539L0.324,1.909z"/>
+          </svg>
+        </span>
+        <span class="text" style="
+        display: none;
+        ">Close</span>
+        </span>
+      </div>
+
+      <div class="popup-content">
+
+        <div class="left-content">
+          <span class="text">Just Like Old Fiends</span>
+        </div>
+
+        <div class="divider">
+          <span class="amp">&amp;</span>
+        </div>
+
+        <div class="right-content">
+
+          <div class="center">
+            <span class="percent">20</span>
+            <div class="pecentoff-wrap">
+              <span class="symbol">%</span>
+              <span class="off">OFF</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
   </div>
 
   <!-- Magnific Popup core JS file -->
   <script src="/listrak/js/magnific-popup.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
-      // Open popup on document load
+      // Open popup form on document load
       $.magnificPopup.open({
         items: {
-          src: '.popup',
+          src: '.popup-form',
           type: 'inline',
           showCloseBtn: false,
         }
       });
 
-      // Re-open popup with button
+      // Re-open popup form with button
       $('button').magnificPopup({
         items: {
-          src: '.popup',
+          src: '.popup-form',
           type: 'inline',
           showCloseBtn: false,
         }
@@ -90,6 +131,20 @@
         $close.on('click', function(e) {
           $.magnificPopup.close();
           e.preventDefault();
+      });
+
+      $( "#email-form" ).submit(function( e ) {
+        $.magnificPopup.close();
+
+        $.magnificPopup.open({
+          items: {
+            src: '.popup-confirm',
+            type: 'inline',
+            showCloseBtn: false,
+          }
+        });
+
+        e.preventDefault();
       });
     });
   </script>
