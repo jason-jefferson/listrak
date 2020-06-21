@@ -7,6 +7,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
+
+  <button style="padding:20px;">Open popup</button>
+
   <div class="wrapper">
     <div class="popup mfp-hide">
 
@@ -61,7 +64,17 @@
   <script src="/listrak/js/magnific-popup.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
+      // Open popup on document load
       $.magnificPopup.open({
+        items: {
+          src: '.popup',
+          type: 'inline',
+          showCloseBtn: false,
+        }
+      });
+
+      // Re-open popup with button
+      $('button').magnificPopup({
         items: {
           src: '.popup',
           type: 'inline',
