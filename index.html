@@ -68,6 +68,12 @@
           showCloseBtn: false,
         }
       });
+
+      var $close = $('.popup').find('.icon-text');
+        $close.on('click', function(e) {
+          $.magnificPopup.close();
+          e.preventDefault();
+      });
     });
   </script>
 </body>
