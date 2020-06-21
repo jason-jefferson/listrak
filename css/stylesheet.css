@@ -146,3 +146,19 @@ label {
     color: #464646;
     line-height: 1;
 }
+
+span.icon.icon-close {
+    position: absolute;
+    top: 13px;
+    right: 21px;
+    cursor: pointer;
+}
+
+svg.icon.icon-ui-close {
+    height: 32px;
+    width: 32px;
+}
+
+path {
+    fill: #E9E9E9;
+}
