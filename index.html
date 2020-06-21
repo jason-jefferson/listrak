@@ -15,7 +15,7 @@
   <div class="wrapper">
     <div class="popup-form mfp-hide">
 
-      <div class="popup-close">
+      <div class="popup close">
         <span class="icon-text">
         <span class="icon icon-close" aria-hidden="true">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 22.88 22.88" xml:space="preserve" class="icon icon-ui-close">
@@ -65,7 +65,7 @@
 
     <div class="popup-confirm mfp-hide">
 
-      <div class="popup-close">
+      <div class="popup close">
         <span class="icon-text">
         <span class="icon icon-close" aria-hidden="true">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 22.88 22.88" xml:space="preserve" class="icon icon-ui-close">
@@ -112,7 +112,7 @@
       // Open popup form on document load
       $.magnificPopup.open({
         items: {
-          src: '.popup-form',
+          src: '.popup.form',
           type: 'inline',
           showCloseBtn: false,
         }
@@ -121,7 +121,7 @@
       // Re-open popup form with button
       $('button').magnificPopup({
         items: {
-          src: '.popup-form',
+          src: '.popup.form',
           type: 'inline',
           showCloseBtn: false,
         }
@@ -138,7 +138,7 @@
 
         $.magnificPopup.open({
           items: {
-            src: '.popup-confirm',
+            src: '.popup.confirm',
             type: 'inline',
             showCloseBtn: false,
           }
