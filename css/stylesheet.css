@@ -160,6 +160,10 @@ svg.icon.icon-ui-close {
     padding: 6px;
 }
 
+.icon-ui-close:hover path {
+  fill: #464646;
+}
+
 path {
     fill: #E9E9E9;
 }
