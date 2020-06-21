@@ -157,6 +157,7 @@ span.icon.icon-close {
 svg.icon.icon-ui-close {
     height: 32px;
     width: 32px;
+    padding: 6px;
 }
 
 path {
