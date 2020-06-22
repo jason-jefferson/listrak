@@ -1,156 +1,159 @@
-<head>
-  <link rel="stylesheet" href="/listrak/css/stylesheet.css">
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Prata&display=swap" rel="stylesheet">
-  <!-- Magnific Popup core CSS file -->
-  <link rel="stylesheet" href="/listrak/css/magnific-popup.css">
-  <!-- jQuery 3.5.1 -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
-<body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/listrak/css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Prata&display=swap" rel="stylesheet">
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="/listrak/css/magnific-popup.css">
+    <!-- jQuery 3.5.1 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
 
-  <div style="text-align: center; width: 100%; padding: 300;">
-    <button class="restart" style="padding:20px;">Open popup</button>
-  </div>
-
-  <div class="popup form mfp-hide">
-
-    <div class="popup-close">
-      <span class="icon-text">
-      <span class="icon icon-close" aria-hidden="true">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 22.88 22.88" xml:space="preserve" class="icon icon-ui-close">
-          <path d="M0.324,1.909c-0.429-0.429-0.429-1.143,0-1.587c0.444-0.429,1.143-0.429,1.587,0l9.523,9.539  l9.539-9.539c0.429-0.429,1.143-0.429,1.571,0c0.444,0.444,0.444,1.159,0,1.587l-9.523,9.524l9.523,9.539  c0.444,0.429,0.444,1.143,0,1.587c-0.429,0.429-1.143,0.429-1.571,0l-9.539-9.539l-9.523,9.539c-0.444,0.429-1.143,0.429-1.587,0  c-0.429-0.444-0.429-1.159,0-1.587l9.523-9.539L0.324,1.909z"/>
-        </svg>
-      </span>
-      <span class="text" style="
-      display: none;
-      ">Close</span>
-      </span>
+    <div style="text-align: center; width: 100%; padding: 300;">
+      <button class="restart" style="padding:20px;">Open popup</button>
     </div>
 
-    <div class="inner-wrap">
+    <div class="popup form mfp-hide">
+
+      <div class="popup-close">
+        <span class="icon-text">
+        <span class="icon icon-close" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 22.88 22.88" xml:space="preserve" class="icon icon-ui-close">
+            <path d="M0.324,1.909c-0.429-0.429-0.429-1.143,0-1.587c0.444-0.429,1.143-0.429,1.587,0l9.523,9.539  l9.539-9.539c0.429-0.429,1.143-0.429,1.571,0c0.444,0.444,0.444,1.159,0,1.587l-9.523,9.524l9.523,9.539  c0.444,0.429,0.444,1.143,0,1.587c-0.429,0.429-1.143,0.429-1.571,0l-9.539-9.539l-9.523,9.539c-0.444,0.429-1.143,0.429-1.587,0  c-0.429-0.444-0.429-1.159,0-1.587l9.523-9.539L0.324,1.909z"/>
+          </svg>
+        </span>
+        <span class="text" style="
+        display: none;
+        ">Close</span>
+        </span>
+      </div>
+
+      <div class="inner-wrap">
+        <div class="popup-content">
+
+          <div class="vertical-line"></div>
+
+          <div class="left-content">
+            <span class="text">Get Your Style On</span>
+          </div>
+
+          <div class="divider">
+            <span class="amp">&amp;</span>
+          </div>
+
+          <div class="right-content">
+
+            <div class="center">
+              <span class="percent">20</span>
+              <div class="pecentoff-wrap">
+                <span class="symbol">%</span>
+                <span class="off">OFF</span>
+              </div>
+            </div>
+
+            <div class="bottom">
+              <form id="email-form">
+                <div class="email-wrap">
+                  <label for="email">Email Address</label>
+                  <input type="email" name="email" id="email" required>
+                </div>
+                <input type="submit" id="submit" value="Sign Up">
+              </form>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="popup confirm mfp-hide">
+
+      <div class="popup-close">
+        <span class="icon-text">
+        <span class="icon icon-close" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 22.88 22.88" xml:space="preserve" class="icon icon-ui-close">
+            <path d="M0.324,1.909c-0.429-0.429-0.429-1.143,0-1.587c0.444-0.429,1.143-0.429,1.587,0l9.523,9.539  l9.539-9.539c0.429-0.429,1.143-0.429,1.571,0c0.444,0.444,0.444,1.159,0,1.587l-9.523,9.524l9.523,9.539  c0.444,0.429,0.444,1.143,0,1.587c-0.429,0.429-1.143,0.429-1.571,0l-9.539-9.539l-9.523,9.539c-0.444,0.429-1.143,0.429-1.587,0  c-0.429-0.444-0.429-1.159,0-1.587l9.523-9.539L0.324,1.909z"/>
+          </svg>
+        </span>
+        <span class="text" style="
+        display: none;
+        ">Close</span>
+        </span>
+      </div>
+
       <div class="popup-content">
 
-        <div class="vertical-line"></div>
-
-        <div class="left-content">
-          <span class="text">Get Your Style On</span>
+        <div class="main-copy">
+          <span class="text">Just Like Old Fiends</span>
         </div>
 
-        <div class="divider">
-          <span class="amp">&amp;</span>
+        <div class="fancy-div">
+            <div class="circle"></div>
+            <div class="line"></div>
+            <div class="circle"></div>
+            <div class="circle big"></div>
+            <div class="circle"></div>
         </div>
 
-        <div class="right-content">
-
-          <div class="center">
-            <span class="percent">20</span>
-            <div class="pecentoff-wrap">
-              <span class="symbol">%</span>
-              <span class="off">OFF</span>
-            </div>
-          </div>
-
-          <div class="bottom">
-            <form id="email-form">
-              <div class="email-wrap">
-                <label for="email">Email Address</label>
-                <input type="email" name="email" id="email" required>
-              </div>
-              <input type="submit" id="submit" value="Sign Up">
-            </form>
-          </div>
-
+        <div class="sub-copy">
+          <span>We'll keep you updated on any deals, news, or gossip that comes our way!</span>
+          <button class="cta">Go Shop!</button>
         </div>
 
-      </div>
-    </div>
-  </div>
-
-  <div class="popup confirm mfp-hide">
-
-    <div class="popup-close">
-      <span class="icon-text">
-      <span class="icon icon-close" aria-hidden="true">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 22.88 22.88" xml:space="preserve" class="icon icon-ui-close">
-          <path d="M0.324,1.909c-0.429-0.429-0.429-1.143,0-1.587c0.444-0.429,1.143-0.429,1.587,0l9.523,9.539  l9.539-9.539c0.429-0.429,1.143-0.429,1.571,0c0.444,0.444,0.444,1.159,0,1.587l-9.523,9.524l9.523,9.539  c0.444,0.429,0.444,1.143,0,1.587c-0.429,0.429-1.143,0.429-1.571,0l-9.539-9.539l-9.523,9.539c-0.444,0.429-1.143,0.429-1.587,0  c-0.429-0.444-0.429-1.159,0-1.587l9.523-9.539L0.324,1.909z"/>
-        </svg>
-      </span>
-      <span class="text" style="
-      display: none;
-      ">Close</span>
-      </span>
-    </div>
-
-    <div class="popup-content">
-
-      <div class="main-copy">
-        <span class="text">Just Like Old Fiends</span>
-      </div>
-
-      <div class="fancy-div">
-          <div class="circle"></div>
-          <div class="line"></div>
-          <div class="circle"></div>
-          <div class="circle big"></div>
-          <div class="circle"></div>
-      </div>
-
-      <div class="sub-copy">
-        <span>We'll keep you updated on any deals, news, or gossip that comes our way!</span>
-        <button class="cta">Go Shop!</button>
       </div>
 
     </div>
 
-  </div>
-
-  <!-- Magnific Popup core JS file -->
-  <script src="/listrak/js/magnific-popup.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      // Open popup form on document load
-      $.magnificPopup.open({
-        items: {
-          src: '.popup.form',
-          type: 'inline',
-          showCloseBtn: false,
-        }
-      });
-
-      // Re-open popup form with button
-      $('button.restart').magnificPopup({
-        items: {
-          src: '.popup.form',
-          type: 'inline',
-          showCloseBtn: false,
-        }
-      });
-
-      //Close Button
-      var $close = $('.popup').find('.icon-text');
-        $close.on('click', function(e) {
-          $.magnificPopup.close();
-          e.preventDefault();
-      });
-
-      //Open Confirm Popup on Submit
-      $( "#email-form" ).submit(function( e ) {
-        $.magnificPopup.close();
-
+    <!-- Magnific Popup core JS file -->
+    <script src="/listrak/js/magnific-popup.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        // Open popup form on document load
         $.magnificPopup.open({
           items: {
-            src: '.popup.confirm',
+            src: '.popup.form',
             type: 'inline',
             showCloseBtn: false,
           }
         });
 
-        e.preventDefault();
-      });
+        // Re-open popup form with button
+        $('button.restart').magnificPopup({
+          items: {
+            src: '.popup.form',
+            type: 'inline',
+            showCloseBtn: false,
+          }
+        });
 
-      $('button.cta').on('click', function(e) {
-        $.magnificPopup.close();
+        //Close Button
+        var $close = $('.popup').find('.icon-text');
+          $close.on('click', function(e) {
+            $.magnificPopup.close();
+            e.preventDefault();
+        });
+
+        //Open Confirm Popup on Submit
+        $( "#email-form" ).submit(function( e ) {
+          $.magnificPopup.close();
+
+          $.magnificPopup.open({
+            items: {
+              src: '.popup.confirm',
+              type: 'inline',
+              showCloseBtn: false,
+            }
+          });
+
+          e.preventDefault();
+        });
+
+        $('button.cta').on('click', function(e) {
+          $.magnificPopup.close();
+        });
       });
-    });
-  </script>
-</body>
+    </script>
+  </body>
+</html>
