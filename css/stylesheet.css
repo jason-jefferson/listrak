@@ -237,7 +237,7 @@ span.icon.icon-close {
 svg.icon.icon-ui-close {
     height: 32px;
     width: 32px;
-    padding: 6px;
+    padding: 8px;
 }
 
 .icon-ui-close:hover path {
@@ -251,6 +251,7 @@ path {
 @media all and (max-width: 692px) {
   .popup {
     max-width: 350px;
+    height: auto;
     padding: 49px 15px 33px;
   }
   .popup-content {
@@ -289,11 +290,6 @@ path {
     padding: 14px 35px 0;
   }
 
-  .bottom {
-      position: relative;
-      top: -20px;
-  }
-
   span.text {
     padding: 0;
     font-size: 42px;
@@ -327,12 +323,43 @@ path {
 
   input#email {
     text-align: center;
-    margin-bottom: 29px;
+    margin-bottom: 30px;
   }
 
   input#submit {
     width: 100%;
     border: 1px solid;
     padding: 12px 0;
+  }
+
+  .popup.confirm {
+    padding: 37px 40px 0;
+  }
+
+  .confirm span.text {
+    padding: 0;
+    font-size: 42px;
+    letter-spacing: 9px;
+  }
+
+  .fancy-div {
+    margin-bottom: 27px;
+  }
+
+  .sub-copy span {
+    line-height: 2.5;
+    margin-bottom: 22px;
+  }
+
+  button.cta {
+    width: 100%;
+    border: 1px solid;
+    padding: 20px;
+    margin-bottom: 45px;
+  }
+
+  span.icon.icon-close {
+    top: 5px;
+    right: 12px;
   }
 }
