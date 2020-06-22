@@ -6,6 +6,7 @@
 
 body {
   background-color: #999999;
+  margin: 0;
 }
 
 span {
@@ -51,6 +52,7 @@ span {
     padding: 0 20px 0 40px;
     border-right: 1px solid #e9e9e9;
     position: relative;
+    line-height: 1.32;
 }
 
 .right-content {
@@ -73,7 +75,7 @@ span {
 }
 
 .center {
-    padding-top: 28px;
+    padding-top: 58px;
 }
 
 .pecentoff-wrap {
@@ -211,6 +213,7 @@ button.cta {
     background: none;
     color: #FD8C94;
     font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
     letter-spacing: 3px;
     line-height: 1;
     padding: 0 10.5px 10px;
@@ -243,4 +246,83 @@ svg.icon.icon-ui-close {
 
 path {
     fill: #E9E9E9;
+}
+
+@media all and (max-width: 692px) {
+  .popup {
+    max-width: 350px;
+    padding: 49px 15px 33px;
+  }
+  .popup-content {
+    position: relative;
+ }
+  .inner-wrap {
+    padding: 0;
+    border: 0;
+  }
+  .vertical-line {
+    display: none;
+  }
+  .left-content {
+    width: 100%;
+    margin: 0px 28px;
+    padding: 0;
+    padding-bottom: 29px;
+    border: 0;
+    border-bottom: 1px solid #e9e9e9;
+    text-align: center;
+  }
+
+  .divider {
+    top: 124px;
+    left: 200px;
+    padding: 0 7px;
+    line-height: 1;
+    height: auto;
+  }
+
+  .right-content {
+    padding: 0 35px;
+  }
+
+  .center {
+    padding-top: 18px;
+  }
+
+  span.text {
+    padding: 0;
+    font-size: 45px;
+    letter-spacing: 9px;
+  }
+
+  span.percent {
+    font-size: 144px;
+    letter-spacing: -3.74px;
+  }
+
+  .pecentoff-wrap {
+    max-width: 58px;
+  }
+
+  span.off {
+    font-size: 23px;
+    letter-spacing: 1.84px;
+  }
+
+  .email-wrap {
+    max-width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  input#email {
+    text-align: center;
+    margin-bottom: 29px;
+  }
+
+  input#submit {
+    width: 100%;
+    border: 1px solid;
+    padding: 12px 0;
+  }
 }
