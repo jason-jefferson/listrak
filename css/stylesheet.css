@@ -121,6 +121,7 @@ span.off {
     max-width: 180px;
     display: inline-block;
     margin-right: 10px;
+    font-size: 0;
 }
 
 input#submit {
