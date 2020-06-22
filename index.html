@@ -116,12 +116,14 @@
         }
       });
 
+      //Close Button
       var $close = $('.popup').find('.icon-text');
         $close.on('click', function(e) {
           $.magnificPopup.close();
           e.preventDefault();
       });
 
+      //Open Confirm Popup on Submit
       $( "#email-form" ).submit(function( e ) {
         $.magnificPopup.close();
 
@@ -134,6 +136,10 @@
         });
 
         e.preventDefault();
+      });
+
+      $('button.cta').on('click', function(e) {
+        $.magnificPopup.close();
       });
     });
   </script>
