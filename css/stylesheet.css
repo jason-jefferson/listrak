@@ -147,6 +147,19 @@ label {
     line-height: 1;
 }
 
+.main-copy {
+    display: inline-block;
+    width: 100%;
+    flex-grow: 2;
+    padding: 0;
+    border-right: 0;
+    position: relative;
+}
+
+.popup.confirm {
+    padding: 104px 91.5px 98.5px;
+}
+
 span.icon.icon-close {
     position: absolute;
     top: 13px;
