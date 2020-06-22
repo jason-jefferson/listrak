@@ -27,6 +27,7 @@ span {
 .popup-content {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .left-content {
@@ -158,6 +159,29 @@ label {
 
 .popup.confirm {
     padding: 104px 91.5px 98.5px;
+}
+
+.sub-copy span {
+  display: inline-block;font-family: 'PT Sans', sans-serif;
+  font-size: 14px;letter-spacing: 0.7px;
+  margin-bottom: 42px;
+}
+
+button.cta {
+    background: none;
+    color: #FD8C94;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 3px;
+    line-height: 1;
+    padding: 0 10.5px 10px;
+    border: 0;
+    border-bottom: 3px solid #FD8C94;
+    cursor: pointer;
+}
+
+button.cta:hover, button.cta:focus {
+    color: red;
+    border-color: red;
 }
 
 span.icon.icon-close {

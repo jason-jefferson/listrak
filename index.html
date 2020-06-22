@@ -1,6 +1,6 @@
 <head>
   <link rel="stylesheet" href="/listrak/css/stylesheet.css">
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Prata&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Prata&display=swap" rel="stylesheet">
   <!-- Magnific Popup core CSS file -->
   <link rel="stylesheet" href="/listrak/css/magnific-popup.css">
   <!-- jQuery 3.5.1 -->
@@ -9,7 +9,7 @@
 <body>
 
   <div style="text-align: center; width: 100%; padding: 300;">
-    <button style="padding:20px;">Open popup</button>
+    <button class="restart" style="padding:20px;">Open popup</button>
   </div>
 
   <div class="wrapper">
@@ -86,7 +86,7 @@
 
         <div class="sub-copy">
           <span>We'll keep you updated on any deals, news, or gossip that comes our way!</span>
-          <button>Go Shop!</button>
+          <button class="cta">Go Shop!</button>
         </div>
 
       </div>
@@ -108,7 +108,7 @@
       });
 
       // Re-open popup form with button
-      $('button').magnificPopup({
+      $('button.restart').magnificPopup({
         items: {
           src: '.popup.form',
           type: 'inline',
