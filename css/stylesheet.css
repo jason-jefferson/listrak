@@ -161,6 +161,32 @@ label {
     padding: 104px 72px 98.5px 91px;
 }
 
+.fancy-div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #E9E9E9;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.circle.big {
+    width: 15px;
+    height: 15px;
+}
+
+.line {
+    width: 102px;
+    border-top: 1px solid #E9E9E9;
+    margin-right: 5px;
+}
+
 .sub-copy span {
   display: inline-block;font-family: 'PT Sans', sans-serif;
   font-size: 14px;letter-spacing: 0.7px;
