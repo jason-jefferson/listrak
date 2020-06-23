@@ -374,3 +374,45 @@ path {
     right: 12px;
   }
 }
+
+@media all and (max-width: 362px) {
+  .popup.form {
+    max-width: 280px;
+    height: auto;
+    padding: 49px 15px 33px;
+  }
+
+  span.text {
+      font-size: 29px;
+      letter-spacing: 7px;
+  }
+
+  .left-content {
+      padding-bottom: 19px;
+  }
+
+  span.amp {
+      font-size: 50px;
+  }
+
+  .divider {
+      top: 77px;
+      left: 100px;
+  }
+
+  span.percent {
+      font-size: 107px;
+  }
+
+  .pecentoff-wrap {
+      max-width: 43px;
+  }
+
+  span.symbol {
+      font-size: 53px;
+  }
+
+  span.off {
+      font-size: 16px;
+  }
+}
