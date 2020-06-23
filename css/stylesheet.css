@@ -83,6 +83,11 @@ span {
     padding-top: 58px;
 }
 
+.bottom {
+    position: relative;
+    top: -10px;
+}
+
 .pecentoff-wrap {
     display: inline-block;
     max-width: 70px;
