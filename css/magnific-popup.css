@@ -12,7 +12,7 @@
 
 /*Close Button Overide*/
 button.mfp-close {
-  display: none;
+  display: none!important;
 }
 
 .mfp-wrap {
