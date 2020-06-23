@@ -129,6 +129,10 @@ span.off {
     font-size: 0;
 }
 
+input {
+  margin: 0;
+}
+
 input#submit {
     border: 0;
     border-bottom: 3px solid #fd8c94;
