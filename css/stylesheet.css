@@ -32,7 +32,7 @@ span {
 }
 @-moz-document url-prefix() {
   .inner-wrap, .vertical-line {
-    border-size: 1.6px;
+    border-size: 1.6px!important;
   }
 }
 
