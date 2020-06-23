@@ -30,6 +30,11 @@ span {
     padding: 78px 0;
     border-left: 1px solid #fd8c94;
 }
+@-moz-document url-prefix() {
+  .inner-wrap, .vertical-line {
+    border-size: 1.6px;
+  }
+}
 
 .popup-content {
   display: flex;
@@ -214,6 +219,7 @@ button.cta {
     background: none;
     color: #FD8C94;
     font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
     font-weight: bold;
     letter-spacing: 3px;
     line-height: 1;
