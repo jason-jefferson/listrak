@@ -415,4 +415,16 @@ path {
   span.off {
       font-size: 16px;
   }
+
+  .confirm span.text {
+    font-size: 40px;
+  }
+
+  .fancy-div {
+    margin-bottom: 17px;
+  }
+
+  .sub-copy span {
+    line-height: 2;
+  }
 }
