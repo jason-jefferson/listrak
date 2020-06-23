@@ -345,7 +345,7 @@ path {
   input#submit {
     width: 100%;
     border: 1px solid;
-    padding: 12px 0;
+    padding: 20px 0;
   }
 
   .popup.confirm {
@@ -359,7 +359,7 @@ path {
   }
 
   .fancy-div {
-    margin-bottom: 27px;
+    margin-bottom: 22px;
   }
 
   .sub-copy span {
